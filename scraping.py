@@ -36,7 +36,6 @@ for book in books.find_all('li'):
 
     # table
     result = soup_book.find('table', class_='table table-striped')
-    #print(result.prettify())
     #print((result.find('tr').th).text, (result.find('tr').td).text)
 
     if i >= 1:
